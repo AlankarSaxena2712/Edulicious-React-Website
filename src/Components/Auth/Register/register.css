@@ -1,0 +1,132 @@
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.register-card {
+    height: 520px;
+    width: 300px;
+    box-shadow: 5px 5px 25px rgb(70, 85, 94);
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background: rgb(27, 81, 126);
+}
+
+.register-card h3 {
+    color: white;
+    position: absolute;
+    font-size: 26px;
+    font-weight: 600;
+    top: 5vh;
+    font-family: 'Montserrat';
+    
+}
+
+.register-card .register-logo {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 15vh;
+}
+
+.register-card form {
+    position: absolute;
+    top: 40%;
+}
+
+form input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 0.7em auto;
+    border-radius: 40px;
+    border: none;
+    border-bottom: 3px solid rgb(32, 159, 218);
+    background: transparent;
+    font-family: 'Montserrat';
+    outline: none;
+    color: #fff;
+}
+
+form input::placeholder {
+    color: #fff;
+    font-size: 13px;
+    background: transparent;
+}
+
+
+form .register-button {
+    width: 100%;
+    padding: 3.5px 13.5px;
+    border-radius: 100px;
+    border: none;
+    border-bottom: 3px solid rgb(32, 159, 218);
+    background: transparent;
+    font-family: 'Montserrat';
+    outline: none;
+    color: #fff;
+}
+
+form .register-button:hover {
+    width: 100%;
+    padding: 3.5px 13.5px;
+    border-radius: 100px;
+    transition: 0.5s ease-in-out;
+    background: rgb(32, 159, 218);
+    font-family: 'Montserrat';
+    outline: none;
+    color: #fff;
+}
+
+.register-card .register-help {
+    margin-top: 8px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.register-card .register-help a {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(126, 201, 236);
+    position: relative;
+}
+
+.register-help-or {
+    position: absolute;
+    left: 48%;   
+    top: 190%;
+}
+
+.register-hr {
+    position: absolute;
+    top: 90%;
+    height: 15%;
+    width: 100%;
+    background-color: white;
+}
+
+.register-hr:not([size]) {
+    height: 1.5px;
+}
+
+.register-card .google-register {
+    position: absolute;
+    bottom: -30%;
+    left: 43%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
